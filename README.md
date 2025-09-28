@@ -12,5 +12,4 @@ stow nvim
 stow tmux
 stow zsh
 
-ps: pour neovim installer fzf et ripgrep
-# distrib-config
+ps: pour neovim in backup folder installer fzf et ripgrep
