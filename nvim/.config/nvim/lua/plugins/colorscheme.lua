@@ -1,11 +1,4 @@
-return {
-  {
-    "scottmckendry/cyberdream.nvim",
-    lazy = false,
-    priority = 1000,
-    -- c'est cette commande qui definit que c'est le theme
-    config = function()
-      vim.cmd.colorscheme("cyberdream")
-    end,
-  },
-}
+-- colors
+require "vague".setup({ transparent = true })
+vim.cmd("colorscheme vague")
+vim.cmd(":hi statusline guibg=NONE")
