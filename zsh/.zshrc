@@ -19,6 +19,10 @@ done
 # Ajouter Go au PATH
 export PATH=$PATH:/usr/local/go/bin
 
+
+# Défini la variable d'env term
+export TERM=xterm-256color
+
 # Définir GOPATH (utile pour les anciens projets Go)
 export GOPATH=$HOME/go
 
