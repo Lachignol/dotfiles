@@ -1,0 +1,2 @@
+# Lachignol Wiki
+[[/Learning]]
