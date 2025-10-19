@@ -1,22 +1,4 @@
-## Fichier de config perso 
-
-#### Creation de fichier avec tout les paquets present sur la machine
-
-```bash
-sudo apt list --installed > liste_paquets.txt
-```
-ou 
-
-```bash
-sudo dpkg --list  > liste_paquets.txt
-```
-#### Installer les paquets en prenant le fichier comprenant toute la liste comme arguments
-
-```bash
-sudo xargs -a liste_paquets.txt apt install
-```
-### Installation
-
+### Fichier de config perso 
 1)cloner le repos dans ~ (/home)
 
 2)Telecharger Stow
@@ -31,5 +13,4 @@ stow tmux
 stow zsh
 
 ps: pour neovim installer fzf et ripgrep
-
-
+# distrib-config
